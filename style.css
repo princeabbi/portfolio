@@ -250,7 +250,7 @@ body {
 }
 
 @media (max-width: 768px) {
-    .hero { flex-direction: column; padding: 4rem 2rem; }
+    .hero { flex-direction: column; padding: 4rem 2rem; padding-top: calc(var(--nav-height) + 4rem); }
     .hero-visual { margin-top: 2rem; }
     .hero-photo-wrap { width: 240px; height: 240px; padding: 12px; }
     .hero-photo { width: 200px; height: 200px; }
